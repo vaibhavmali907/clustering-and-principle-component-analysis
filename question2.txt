@@ -1,0 +1,65 @@
+Question # 2
+Explain in detail
+1. Give 3 differences between KMeans & Hierarchical clustering? (5 Marks)
+Answer:-
+k-means Clustering:1)K Means clustering needed advance knowledge of K i.e. no. of clusters one want to divide your data.
+2)One can use median or mean as a cluster centre to represent each cluster.
+3)Methods used are normally less computationally intensive and are suited with very large datasets
+
+Hierarchical Clustering:1)In hierarchical clustering  one can stop at any number of clusters, one find appropriate by interpreting  the dendrogram.
+2)Agglomerative methods  begin with ‘n’ clusters and  sequentially combine similar clusters until only one cluster is obtained.
+3)Divisive methods work in the opposite direction, beginning with one cluster that includes all the records and Hierarchical methods are  especially useful when the target is to arrange the clusters  into a natural hierarchy.
+
+2. What is an ARIMA model? Explain in detail. (5 Marks)
+Answer:-
+An ARIMA model is a class of measurable model for breaking down and determining time arrangement information. 
+
+ARIMA is an abbreviation that represents AutoRegressive Integrated Moving Average. It is a speculation of the easier AutoRegressive Moving Average and adds the idea of mix. 
+
+This abbreviation is enlightening, catching the vital parts of the model itself. Momentarily, they are: 
+
+AR: Autoregression. A model that utilizes the reliant connection between a perception and some number of slacked perceptions. 
+
+I: Integrated. The utilization of differencing of crude perceptions (for example taking away a perception from a perception at the past time step) to make the time arrangement fixed. 
+
+Mama: Moving Average. A model that utilizes the reliance between a perception and lingering mistakes from a moving normal model applied to slacked perceptions. 
+
+Every one of these parts are expressly determined in the model as a boundary. 
+
+A standard documentation is utilized of ARIMA(p,d,q) where the boundaries are subbed with whole number qualities to rapidly demonstrate the particular ARIMA model being utilized. 
+
+The boundaries of the ARIMA model are characterized as follows: 
+
+p: The quantity of slack perceptions remembered for the model, additionally called the slack request. 
+
+d: The occasions that the crude perceptions are differenced, additionally called the level of differencing. 
+
+q: The size of the moving normal window, additionally called the request for moving normal.
+
+
+3. How can you determine the right no. of principal components for your data? (5 Marks)
+Answer:-
+Decide the base number of head segments that represent the majority of the variety in your information, by utilizing the accompanying strategies. 
+
+Extent of difference that the parts clarify 
+
+Utilize the aggregate extent to decide the measure of fluctuation that the main segments clarify. Hold the vital segments that clarify a satisfactory degree of fluctuation. The satisfactory level relies upon your application. For clear purposes, you may just need 80% of the difference clarified. Nonetheless, in the event that you need to perform different examinations on the information, you might need to have at any rate 90% of the fluctuation clarified by the important parts. 
+
+Eigenvalues 
+
+You can utilize the size of the eigenvalue to decide the quantity of head parts. Hold the main parts with the biggest eigenvalues. For instance, utilizing the Kaiser basis, you utilize just the foremost parts with eigenvalues that are more prominent than 1. 
+
+Scree plot 
+
+The scree plot arranges the eigenvalues from biggest to littlest. The ideal example is a precarious bend, trailed by a twist, and afterward a straight line. Utilize the segments in the precarious bend before the primary point that begins the line pattern.
+
+
+4. Explain 2 methods to check the stationarity of time series data. (5 Marks) 
+Answer:-
+There are numerous strategies to check whether a period arrangement (direct perceptions, residuals, in any case) is fixed or non-fixed. 
+
+1.Look at Plots: You can survey a period arrangement plot of your information and outwardly check if there are any undeniable patterns or irregularity. 
+
+2.Summary Statistics: You can audit the rundown measurements for your information for seasons or irregular segments and check for clear or huge contrasts. 
+
+3.Statistical Tests: You can utilize factual tests to check if the assumptions for stationarity are met or have been abused.

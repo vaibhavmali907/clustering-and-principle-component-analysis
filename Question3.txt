@@ -1,0 +1,47 @@
+Question # 3
+Explain in detail
+1. Explain Moving Average & Exponential Moving Average with examples. (10 Marks)
+Answer:-
+Moving Average:- 
+
+The simple moving average (SMA) is a generally utilized specialized utilized by merchants and speculators. It very well may be determined at various costs, for example, the open, close, high, and low. It is a regressive looking marker and depends on past value information for a specific period. 
+
+The SMA pointer is utilized to demonstrate purchase and offer signs to brokers and financial specialists. It assists with recognizing backing and obstruction costs of stocks to flag where the resource ought to be exchanged. Dealers and speculators additionally use SMA hybrids to show bullish and bearish value activity. Notwithstanding, to create the pointer, it should be first determined by utilizing past value information and afterward plotted on a diagram. 
+
+The SMA is anything but difficult to ascertain and is the normal stock cost over a specific period dependent on a bunch of boundaries. The moving normal is determined by adding a stock's costs over a specific period and partitioning the aggregate by the absolute number of periods. 
+
+For example, a broker needs to ascertain the SMA for stock ABC by taking a gander at the high of day more than five periods. For as far back as five days, the highs of the day were $25.40, $25.90. $26.50, $26.30 and $27.90. The SMA, in view of the highs, is $26.40 (($25.40+$25.90+$26.50+$26.30+$27.90)/5). The previous five shutting costs of stock ABC are $25.25, $25.50, $25.00, $24.90 and $26.80. In this way, the SMA is $25.49. This figuring can be stretched out to more periods, for example, for 20, 50, 100 and 200 periods. 
+
+
+Exponential Moving Average:- 
+
+Exponential Moving Average (EMA) is a kind of moving Average (MA) that puts a more prominent weight and criticalness on the latest information focuses. The remarkable moving normal is likewise alluded to as the dramatically weighted moving normal. A dramatically weighted moving normal responds more fundamentally to ongoing value changes than a Simple Moving Average (SMA), which applies an equivalent load to all perceptions in the period. 
+
+The EMA is a moving normal that puts a more noteworthy weight and centrality on the latest information focuses. 
+
+Like every single moving normal, this specialized pointer is utilized to deliver purchase and sell signals dependent on hybrids and divergences from the recorded normal. 
+
+Dealers regularly utilize a few diverse EMA lengths, for example, 10-day, 50-day, and 200-day moving midpoints. 
+
+For example, a four-period EMA with costs of 1.5554, 1.5555, 1.5558, and 1.5560, with the last worth being the latest, gives a current EMA estimation of 1.5558 utilizing the computation (1.5560 - 1.5558) x (2/5) + 1.5558 = 1.55588.
+
+
+
+2. Explain the working of a neuron/perceptron in a Neural network in detail. (10 Marks) 
+Answer:-
+A perceptron is a neural network unit (an artificial neuron) that does certain computations to detect features or business intelligence in the input data.
+A Perceptron is an algorithm for supervised learning of binary classifiers. This algorithm enables neurons to learn and processes elements in the training set one at a time.
+There are two types of Perceptrons: Single layer and Multilayer.
+Single layer Perceptrons can learn only linearly separable patterns.
+Multilayer Perceptrons or feedforward neural networks with two or more layers have the greater processing power.
+The Perceptron algorithm learns the weights for the input signals in order to draw a linear decision boundary.
+This enables you to distinguish between the two linearly separable classes +1 and -1.
+Perceptron Learning Rule states that the algorithm would automatically learn the optimal weight coefficients. The input features are then multiplied with these weights to determine if a neuron fires or not.
+The Perceptron receives multiple input signals, and if the sum of the input signals exceeds a certain threshold, it either outputs a signal or does not return an output. In the context of supervised learning and classification, this can then be used to predict the class of a sample.
+A Perceptron accepts inputs, moderates them with certain weight values, then applies the transformation function to output the final result. The above below shows a Perceptron with a Boolean output.
+
+The perceptron works on these simple steps
+a. All the inputs x are multiplied with their weights w. Let’s call it k
+b. Add all the multiplied values and call them Weighted Sum.
+c. Apply that weighted sum to the correct Activation Function.
+For Example: Unit Step Activation Function.
